@@ -1,0 +1,16 @@
+.card{
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(132, 132, 133);
+    border-radius: 10px;
+    background-color: rgb(230, 198, 244);
+}
+.img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+.cardtext{
+    text-align: center;
+    flex-wrap: wrap;
+}

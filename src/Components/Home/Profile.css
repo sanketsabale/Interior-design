@@ -1,0 +1,25 @@
+.box{
+    margin-top: 50px;
+    height: 550px;
+    width: 480px;
+    border: 2px solid rgb(248, 214, 251);
+    border-radius: 50px;
+    background-color: rgb(230, 198, 244);
+}
+.dp{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.boxinfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxname{
+    text-align: left;
+    padding: 20px;
+}
+.boxinfo2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}

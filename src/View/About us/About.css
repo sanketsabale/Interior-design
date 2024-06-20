@@ -1,0 +1,31 @@
+.mainlogo {
+    margin: 100px 500px;
+    height: 500px;
+}
+
+.about1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about11 {
+    width: 400px;
+}
+.rocket{
+    margin-top: -10px;
+}
+.about11 h1 {
+    font-family: gilroy;
+}
+
+.about11 h6 {
+    color: rgb(55, 30, 66);
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    font-family: gilroy;
+    font-size: larger;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+}

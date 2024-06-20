@@ -1,0 +1,26 @@
+.logo{
+    height: 70px;
+    margin-top: -15px;
+}
+.name{
+    color: rgb(0, 0, 0);
+    font-family:Gilroy ;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size:xx-large;
+}
+.offcanvas-title{
+    font-size: xx-large;
+    font-family:Gilroy ;
+    font-weight: 500;
+}
+.navbar{
+    height: 70px;
+    background-image:linear-gradient(#d986f3,#311b3e);
+}
+.page{
+    font-size: x-large;
+    font-family:Gilroy ;
+    font-weight: 400;
+}
