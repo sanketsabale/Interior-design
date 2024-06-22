@@ -1,0 +1,16 @@
+.trophydiv{
+    margin-top: 40px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(245, 239, 239);
+}
+.trophypic{
+    height: 100px;
+    margin: 5px auto;
+}
+.trophyname{
+    text-align: center;
+}

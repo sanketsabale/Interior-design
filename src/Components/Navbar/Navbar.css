@@ -17,10 +17,14 @@
 }
 .navbar{
     height: 70px;
-    background-image:linear-gradient(#d986f3,#311b3e);
+    background-image:linear-gradient(#da6efb,#c148e7,#311b3e);
 }
 .page{
     font-size: x-large;
     font-family:Gilroy ;
     font-weight: 400;
+}
+.offcanvas{
+    background-color: #eebcfd;
+
 }

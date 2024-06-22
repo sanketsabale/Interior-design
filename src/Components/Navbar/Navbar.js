@@ -29,13 +29,13 @@ export function Navbar() {
                                     <a class="page nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page nav-link inactive" aria-current="page" href="#">Services</a>
+                                    <a class="page nav-link inactive" aria-current="page" href="/Services">Services</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page nav-link inactive" aria-current="page" href="/About">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page nav-link inactive" aria-current="page" href="#">Login</a>
+                                    <a class="page nav-link inactive" aria-current="page" href="/Login">Login</a>
                                 </li>
                             </ul>
                         </div>

@@ -1,0 +1,93 @@
+.scardinfo{
+    margin-top: 70px;
+}
+.scardpage{
+    margin: 10px 20px;
+}
+.scardmaindiv{
+    margin: 100px 200px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scarddiv1{
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(#e192f9,#c272da,#3d224d);
+}
+.scarddiv2{
+    height: auto;
+    width: 450px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    background-image: linear-gradient(#e192f9,#c272da,#3d224d);
+}
+.scarddiv2 h3{
+    text-align: center;
+    margin-top: -20px;
+}
+.maindivbtn{
+    margin-top: 20PX;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(#e192f9,#9f23c5);
+
+}
+
+.scardinfoimg{
+    height: 60vh;
+    width: 63vw;
+    border-radius: 0px 0 0px 0;
+    border: 1px solid black;
+}
+.imgdiv1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.scardinfoimg1{
+    margin-left: 40px;
+    height:29vh ;
+    width:31vw;
+    margin-bottom: 30px;
+    border-radius: 0px 70px 0px 0;
+    border: 1px solid black;
+}
+.scardinfoimg2{
+    margin-left: 40px;
+    height:28vh ;
+    width:31vw;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid black;
+}
+.imgdiv2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.scardinfoimg3{
+    margin-left: -45px;
+    height: 29vh;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 0px 0px 0px 70px;
+
+}
+.scardinfoimg4{
+    height: 29vh;
+    width: 30vw;
+    border: 1px solid black;
+}
+.scardinfoimg5{
+
+    height: 29vh;
+    width: 33vw;
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 0px;
+}

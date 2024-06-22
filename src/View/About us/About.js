@@ -38,10 +38,11 @@ export function About() {
 
             {/* profiles */}
 
-            <h1 className='heading'>The team behind your dream</h1>
+            <h1 className='heading'>The team behind your dreams</h1>
+            <h3 className='subheading'>It takes having the right people to bring dreams to life - and we make sure you get the best.</h3>
             <div className='profile'>
-            <Profile img={profile1} name='Your Designer' post='An expert in full home design' para='Your designer will translate your family’s personality and needs into a wholesome design.' edu='Masters in Interior Design' exp='4+ years' home='Over 40 homes' skill1='Experienced in designing across styles & themes'/>
-            <Profile img={profile2} name='Your Operations Leader' post='An expert in project management' para='Your rep on site, your operations lead will ensure a perfect and complete home transformation.' edu='B.E Civil Engineering' exp='6+ years' home='Over 35 homes' skill1='Project planning'/>
+            <Profile img={profile1} name='Your Designer' post='An expert in full home design' para='Your designer will translate your family’s personality and needs into a wholesome design.' edu='Masters in Interior Design' exp='4+ years' home='Over 40 homes' skill1='Experienced in designing' skill2='Space planning' skill3='Civil/core materials know-how' skill4='Furniture & furnishing' skill5='Budget planning and pricing'/>
+            <Profile img={profile2} name='Your Operations Leader' post='An expert in project management' para='Your rep on site, your operations lead will ensure a perfect and complete home transformation.' edu='B.E Civil Engineering' exp='6+ years' home='Over 35 homes' skill1='Project planning' skill2='Onsite progress & tracking' skill3='Custom work/services audit' skill4='Quality adherence' skill5='Vendor management'/>
             </div>
 
 

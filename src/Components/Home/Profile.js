@@ -17,16 +17,23 @@ export function Profile(propes) {
 
             <div className='boxinfo2'>
                 <div>
-                <p>Education  </p>
-                <p>Typical Experience  </p>
-                <p>Projects Managed  </p>
-                <p>Top Skills  </p>
+                    <p>Education  </p>
+                    <p>Typical Experience  </p>
+                    <p>Projects Managed  </p>
+                    <p>Top Skills  </p>
                 </div>
                 <div>
                     <p>: {propes.edu}</p>
                     <p>: {propes.exp}</p>
                     <p>: {propes.edu}</p>
-                    <p>: {propes.skill1}</p>
+                    <p className='skills'>:             ◆ {propes.skill1}<br />
+                        &nbsp;&nbsp;◆ {propes.skill2}<br />
+                        &nbsp;&nbsp;◆ {propes.skill3}<br />
+                        &nbsp;&nbsp;◆ {propes.skill4}<br />
+                        &nbsp;&nbsp;◆ {propes.skill5}<br />
+
+
+                    </p>
                 </div>
 
             </div>

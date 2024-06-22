@@ -1,0 +1,46 @@
+.text {
+    margin-top: 70px;
+    background: url("./Service.jpg") no-repeat;
+    min-height: 70vh;
+    width: 99vw;
+    background-size: cover;
+    align-content: start;
+    transition: 1s;
+}
+
+.text:hover>.text-para {
+    opacity: 1;
+    transition: 2s;
+}
+
+.text:hover>.text-para>h1 {
+    background-color: #0000005b;
+    background-image: linear-gradient(250deg, #e2a0f7, #513760);
+}
+
+.text .text-para {
+    margin: 30px;
+    opacity: 0;
+    transition: 2s;
+}
+
+.text-para h1 {
+    margin-top: 300px;
+    margin-left: 400px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    line-height: 80px;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 600px;
+    transition: 2s;
+}
+
+.Sdatacard{
+    margin: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

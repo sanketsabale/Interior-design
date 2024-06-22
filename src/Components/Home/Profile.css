@@ -5,6 +5,7 @@
     border: 2px solid rgb(248, 214, 251);
     border-radius: 50px;
     background-color: rgb(230, 198, 244);
+    font-family: gilroy;
 }
 .dp{
     margin-left: 20px;
@@ -22,4 +23,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
+}
+.skills{
+    line-height: 35px;
 }

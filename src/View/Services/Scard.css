@@ -1,0 +1,30 @@
+.scard{
+    margin-bottom: 50px;
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: rgb(230, 198, 244);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .15);
+    transition: 0.3s;
+}
+.scard:hover{
+    transform: scale(1.1) ;
+    box-shadow: 1px 1px 20px -4px rgb(0, 0, 0);
+}
+.scardimg{
+    height: 200px;
+    width: 100%;
+    border-radius: 8px 8px 0 0 ;
+}
+.information{
+    padding: 10px;
+}
+.scardnum{
+    margin-top: -8px;
+    margin-bottom: 7px;
+}
+.scardbtn{
+    background-color: rgb(209, 169, 247);
+    border: none;
+    border-radius: 10px;
+}

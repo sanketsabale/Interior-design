@@ -24,6 +24,10 @@
     letter-spacing: 0.5px;
     font-family: gilroy;
     font-size: larger;
+    text-align: justify;
+}
+.subheading{
+    font-family: gilroy;
 }
 .profile{
     display: flex;

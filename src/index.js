@@ -4,6 +4,9 @@ import './index.css';
 import { createBrowserRouter ,RouterProvider } from 'react-router-dom';
 import { Home } from './View/Home/Home';
 import { About } from './View/About us/About';
+import { Services } from './View/Services/Services';
+import { Scardinfo } from './View/Services/Scardinfo';
+import { Login } from './View/Login/Login';
 
 
 const routes=createBrowserRouter([
@@ -15,12 +18,19 @@ const routes=createBrowserRouter([
   {
     path : '/About',
     element: <About/>
+  },
+  {
+    path : '/Services',
+    element: <Services/>
+  },
+  {
+    path : '/Scardinfo/:id' ,
+    element: <Scardinfo/>
+  },
+  {
+    path : '/Login' ,
+    element: <Login/>
   }
-
-  // {
-  //   path : '/Info/:id' ,
-  //   element: <Info/>
-  // },
   ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
